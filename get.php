@@ -1,7 +1,7 @@
 <?php
 $texto = $_GET['texto'];
 ?>
-
+//teste
 <html>
 <head>
 <title>Aula de PHP</title>
