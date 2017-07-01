@@ -8,6 +8,9 @@ $titulo = "Video aula com sessao";
 
 if (isset($_POST['usuario']) && $_POST['usuario'] == "admin") {
     $_SESSION['usuario'] = $_POST['usuario'];
+    
+    fwrite($log, date("d/m/Y H:i:s")." ".$_SERVER['REMOTE_ADDR']."\r\n");
+    
 } else {
 
     unset($_SESSION['usuario']);
@@ -25,7 +28,8 @@ if (isset($_SESSION['usuario'])) {
 if (isset($_GET['ac']) && $_GET['ac'] == "logout") {
     unset($_SESSION['usuario']);
 }
-
+//fecha a gravação em log
+fclose($log);
 
 
 

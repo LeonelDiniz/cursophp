@@ -2,6 +2,13 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="Pessoal"/>
+        <group name="Pessoal">
+            <file>file:/C:/xampp/htdocs/cursophp/app/login/administrativo.php</file>
+            <file>file:/C:/xampp/htdocs/cursophp/app/login/formularioLogin.php</file>
+            <file>file:/C:/xampp/htdocs/cursophp/app/login/index.php</file>
+            <file>file:/C:/xampp/htdocs/cursophp/app/login/log.txt</file>
+            <file>file:/C:/xampp/htdocs/cursophp/app/login/controller.php</file>
+            <file>file:/C:/xampp/htdocs/cursophp/app/funcoes.php</file>
+        </group>
     </open-files>
 </project-private>

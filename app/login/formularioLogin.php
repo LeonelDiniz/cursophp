@@ -13,6 +13,7 @@
             
             <p>Senha:</p>
             <input type="password" name="senha"/>
+            <p><input type="checkbox" value="1" name="lembrar"/>Manter Logado</p>
             
             <p><input type="submit" value="confirmar"></p>
                    
